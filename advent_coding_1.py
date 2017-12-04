@@ -27,6 +27,9 @@ def testing(value):
 
 if __name__ == "__main__":
 	print( "Program started." )
+	if len(argv) != 2:
+    		print(USAGE % argv[0])
+    		quit()
 
 	a_1 = sys.argv[1]
 	start = time.time()
