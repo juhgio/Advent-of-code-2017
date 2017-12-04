@@ -2,7 +2,7 @@
 #!/usr/bin/env python3
 #author: juho-petteri lesonen
 #date: 04.12.2017
-#Problem describtion from Advent of code 2017: https://adventofcode.com/2017/day/1
+#Problem description from Advent of code 2017: https://adventofcode.com/2017/day/1
 
 import time
 import sys
