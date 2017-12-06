@@ -10,14 +10,12 @@ import sys
 def maze_run(maze):
 	k = 0
 	index = 0
-	
 	while index < len(maze) or index < 0:
 		jump = maze[index]
 		new_index = index + jump
 		maze[index] = maze[index] + 1
 		index = new_index
 		k += 1
-		
 	return k
 		
 if __name__ == "__main__":
