@@ -23,7 +23,6 @@ if __name__ == "__main__":
 	result = sys.argv
 	del result[0]
 	a_1 = result
-	print(a_1)
 	
 	value = split_string(a_1)
 
